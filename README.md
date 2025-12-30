@@ -1,7 +1,7 @@
 # Java-web-scraping
 <h2>Javaを使用したWebスクレイピングの方法をコード例付きで素早く紹介するガイド</h2>
 
-![java web scraping header](https://github.com/luminati-io/java-web-scraping/blob/main/Web%20scraping%20with%20Java%20-%20Ultimate%20guide.png "java scraping guide banner")
+![java web scraping header](https://github.com/bright-jp/java-web-scraping/blob/main/Web%20scraping%20with%20Java%20-%20Ultimate%20guide.png "java scraping guide banner")
 
 Pythonの使用を好む人もいますが、もう1つの人気のある選択肢は、**WebスクレイピングにJavaを活用すること**です。ここでは、これを簡単に実現するためのステップバイステップガイドをご紹介します。
 
@@ -31,7 +31,7 @@ Pythonの使用を好む人もいますが、もう1つの人気のある選択�
 <h3>Step Two: HTMLのスクレイピングを開始する</h3>
 IntelliJ IDEAを開き、Mavenプロジェクトを作成します。
 
-![intellij IDEA Maven project](https://github.com/luminati-io/java-web-scraping/blob/main/Java2%20intellij.png "intellij maven project")
+![intellij IDEA Maven project](https://github.com/bright-jp/java-web-scraping/blob/main/Java2%20intellij.png "intellij maven project")
 
 Mavenプロジェクトにはpom.xmlファイルがあります。pom.xmlファイルに移動し、まずプロジェクトのJDKバージョンを設定します。
 
@@ -55,7 +55,7 @@ Mavenプロジェクトにはpom.xmlファイルがあります。pom.xmlファ�
   ```
   これで、最初のJavaクラスを書き始める準備が整いました。次のように新しいJavaソースファイルを作成することから始めます。
   
-  ![open new java source](https://github.com/luminati-io/java-web-scraping/blob/main/Java3%20intellij.png "new java class")
+  ![open new java source](https://github.com/bright-jp/java-web-scraping/blob/main/Java3%20intellij.png "new java class")
   
   アプリケーションを開始するためにmainメソッドを作成する必要があります。次のようにmainメソッドを作成してください。
   
@@ -110,7 +110,7 @@ WebClient webClient = createWebClient();
   ```
 目的の要素の **XPath** を取得するには、Developer Consoleを使用します。Developer Consoleで選択したセクションを右クリックし、「Copy XPath」をクリックします。このコマンドにより、選択したセクションがXPath式としてコピーされます。
 
-![xpath of element](https://github.com/luminati-io/java-web-scraping/blob/main/Java4.png "get xpath")
+![xpath of element](https://github.com/bright-jp/java-web-scraping/blob/main/Java4.png "get xpath")
 
 Webページにはリンク、テキスト、画像、表が含まれています。表のXPathを選択した場合は、CSVにエクスポートして、Microsoft Excelなどのプログラムで追加の計算や分析を行えます。次のステップでは、表をCSVファイルとしてエクスポートする方法を確認します。
 
